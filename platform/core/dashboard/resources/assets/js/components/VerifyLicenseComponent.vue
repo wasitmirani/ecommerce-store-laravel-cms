@@ -36,12 +36,12 @@
 
         methods: {
             verifyLicense() {
-                axios.get(this.verifyUrl)
-                    .then(res =>  {
-                        if (res.data.error) {
-                            this.verified = false;
-                        }
-                    });
+                // axios.get(this.verifyUrl)
+                //     .then(res =>  {
+                //         if (res.data.error) {
+                //             this.verified = false;
+                //         }
+                //     });
             },
         }
     }
