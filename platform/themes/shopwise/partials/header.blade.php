@@ -15,6 +15,14 @@
                 --color-2nd: {{ theme_option('secondary_color', '#1D2224') }};
                 --primary-font: '{{ theme_option('primary_font', 'Poppins') }}', sans-serif;
             }
+            .whatsapp-left {
+                position: fixed;
+                left: 15px;
+                bottom: 30px;
+                z-index: 9999999;
+                width: 65px;
+                height: 65px;
+            }
         </style>
 
         {!! Theme::header() !!}
